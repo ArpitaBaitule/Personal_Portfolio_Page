@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text styles to the header */
+header {
+    background-color: #97e2ec;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color:#1fb6ca ;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    padding: 30px;
+}
+
+/* Style the project boxes in the portfolio section */
+.project {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+/* Style the footer */
+footer {
+    background-color: #97e2ec;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
